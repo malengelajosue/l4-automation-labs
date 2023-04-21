@@ -1,0 +1,6 @@
+[Unit]
+Description=L4 Service Web on port 3800
+[Service]
+ExecStart=python3 $HOME/Documents/Cours_ressources_2023/l4-automation-labs/esis_l4.py
+[Install]
+WantedBy=multi-user.target
