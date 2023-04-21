@@ -1,0 +1,9 @@
+[Unit]
+Description=MyAPP
+
+
+[Service]
+ExecStart=python3 $(echo $HOME/Documents/Cours_ressources_2023/l4-automation-labs/esis_l4.py) &
+
+[Install]
+WantedBy=multi-user.target
